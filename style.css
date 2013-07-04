@@ -1,0 +1,64 @@
+ body { 
+     background: url(img/brickwall.png) repeat 0 0;
+ }
+ header {
+  margin-bottom: 2em; 
+ }
+ header a {
+  width: 100%;
+  height: auto;
+  margin: 45px auto 0;
+  display: block; 
+ }
+ #userss {
+   border:3px solid black;
+ position:absolute;
+ background:url(img/witewall_3.png) repeat 0 0;
+      top:10%;
+     left:60%;
+    width:30%;
+   height:50%;
+ }
+ #userss {
+    position:absolute;
+      top:15%;
+     left:60%;
+    width:30%;
+   height:45%;
+ overflow:auto;  
+ }
+ #chat {
+ position:absolute;
+      top:10%;
+     left:5%;
+    width:50%;
+   height:50%;
+ overflow:auto; 
+ }
+ #notif {
+    color:grey;
+ position:absolute;
+      top:70%;
+     left:5%;
+    width:50%;
+   height:20%;
+ }
+ #inputform {
+  padding:10px;
+ }
+ #chatt {
+ position:absolute;
+      top:80%;
+     left:5%;
+    width:40%;
+ }
+ #sendchat {
+              color: black;
+               font: "Courier New", Courier, monospace;
+   background-color: #38ACEC;
+           position:absolute;
+                top:80%;
+               left:45%;
+              width:120px;
+ }
+

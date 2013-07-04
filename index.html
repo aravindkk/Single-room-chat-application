@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Chat room</title>
+<script type='text/javascript' src='/socket.io/lib/socket.io.js'></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="js/main.js">
+</script>
+<body>
+  <div id="userss">Who's here... <div id="users"></div></div>
+  <div id="chat"></div>
+  <div id="notif"></div>
+  <form  id="inputform" onsubmit='return submitChat(this);'>
+    <input id="chatt" name='chat' type='text' onfocus='return changed();', onblur='return nottyping();'></input>
+    <input type='submit'  id="sendchat" value='Send Chat'></input>
+  </form>
+</body>
+</html>
