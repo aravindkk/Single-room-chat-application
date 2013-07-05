@@ -1,7 +1,7 @@
 A simple chat application created using socket.io and the express framework.
 
 To see a working demo:
-http://singleroomchat.herokuapp.com/
+http://simple-chat-application.herokuapp.com/
 
 Nothing fancy, just the demo of the functionality.
 
@@ -15,7 +15,6 @@ npm install
 from the terminal.
 
 Alternatively you can get them individually.
-
 You can get nodeJS here:
 http://nodejs.org/
 
